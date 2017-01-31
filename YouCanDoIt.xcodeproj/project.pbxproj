@@ -12,7 +12,356 @@
 		92B1EFE51E40DDA70032E83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1EFE31E40DDA70032E83B /* Main.storyboard */; };
 		92B1EFE71E40DDA70032E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1EFE61E40DDA70032E83B /* Assets.xcassets */; };
 		92B1EFEA1E40DDA70032E83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1EFE81E40DDA70032E83B /* LaunchScreen.storyboard */; };
+		92B1F09A1E40EE730032E83B /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0211E40EE3B0032E83B /* Argo.framework */; };
+		92B1F09B1E40EE730032E83B /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0361E40EE430032E83B /* Curry.framework */; };
+		92B1F09C1E40EE730032E83B /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F04C1E40EE4A0032E83B /* ReactiveSwift.framework */; };
+		92B1F09D1E40EE730032E83B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0651E40EE500032E83B /* Result.framework */; };
+		92B1F09E1E40EE730032E83B /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F07B1E40EE570032E83B /* Runes.framework */; };
+		92B1F09F1E40EE730032E83B /* Tentacle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0931E40EE5D0032E83B /* Tentacle.framework */; };
+		92B1F0A01E40EE8E0032E83B /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0211E40EE3B0032E83B /* Argo.framework */; };
+		92B1F0A11E40EE8E0032E83B /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0211E40EE3B0032E83B /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0A41E40EE8E0032E83B /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0361E40EE430032E83B /* Curry.framework */; };
+		92B1F0A51E40EE8E0032E83B /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0361E40EE430032E83B /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0A81E40EE8E0032E83B /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F04C1E40EE4A0032E83B /* ReactiveSwift.framework */; };
+		92B1F0A91E40EE8E0032E83B /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F04C1E40EE4A0032E83B /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0AC1E40EE8E0032E83B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0651E40EE500032E83B /* Result.framework */; };
+		92B1F0AD1E40EE8E0032E83B /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0651E40EE500032E83B /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0B01E40EE8E0032E83B /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F07B1E40EE570032E83B /* Runes.framework */; };
+		92B1F0B11E40EE8E0032E83B /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F07B1E40EE570032E83B /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0B41E40EE8E0032E83B /* Tentacle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0931E40EE5D0032E83B /* Tentacle.framework */; };
+		92B1F0B51E40EE8E0032E83B /* Tentacle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1F0931E40EE5D0032E83B /* Tentacle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92B1F0BC1E40EFBC0032E83B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F0BB1E40EFBC0032E83B /* Counter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B1F0201E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAD9FACF19D0EAB50031E006;
+			remoteInfo = "Argo-iOS";
+		};
+		92B1F0221E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAD9FADA19D0EAB60031E006;
+			remoteInfo = ArgoTests;
+		};
+		92B1F0241E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F89335541A4CE83000B88685;
+			remoteInfo = "Argo-Mac";
+		};
+		92B1F0261E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F893355E1A4CE83000B88685;
+			remoteInfo = "Argo-MacTests";
+		};
+		92B1F0281E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0592EB61B77DD7800EFEF39;
+			remoteInfo = "Argo-watchOS";
+		};
+		92B1F02A1E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 809754C11BADF34100C409E6;
+			remoteInfo = "Argo-tvOS";
+		};
+		92B1F02C1E40EE3B0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 809754CA1BADF34200C409E6;
+			remoteInfo = "Argo-tvOSTests";
+		};
+		92B1F0351E40EE430032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F88630561B4EF96200F53969;
+			remoteInfo = "Curry-iOS";
+		};
+		92B1F0371E40EE430032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F886307D1B4EF9F800F53969;
+			remoteInfo = "Curry-Mac";
+		};
+		92B1F0391E40EE430032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 804D01F31BA3684C0005BBC4;
+			remoteInfo = "Curry-watchOS";
+		};
+		92B1F03B1E40EE430032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80E059071BA9FA7F0077CBA7;
+			remoteInfo = "Curry-tvOS";
+		};
+		92B1F0471E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725EA19E49ED7006002AA;
+			remoteInfo = "ReactiveSwift-macOS";
+		};
+		92B1F0491E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725F519E49ED7006002AA;
+			remoteInfo = "ReactiveSwift-macOSTests";
+		};
+		92B1F04B1E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047260C19E49F82006002AA;
+			remoteInfo = "ReactiveSwift-iOS";
+		};
+		92B1F04D1E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047261619E49F82006002AA;
+			remoteInfo = "ReactiveSwift-iOSTests";
+		};
+		92B1F04F1E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9B315541B3940610001CB9C;
+			remoteInfo = "ReactiveSwift-watchOS";
+		};
+		92B1F0511E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57A4D2411BA13D7A00F7D4B1;
+			remoteInfo = "ReactiveSwift-tvOS";
+		};
+		92B1F0531E40EE4A0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DFBED031CDB8C9500EE435B;
+			remoteInfo = "ReactiveSwift-tvOSTests";
+		};
+		92B1F0601E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45480571A9572F5009D7229;
+			remoteInfo = "Result-Mac";
+		};
+		92B1F0621E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45480671A9572F5009D7229;
+			remoteInfo = "Result-MacTests";
+		};
+		92B1F0641E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D454807D1A957361009D7229;
+			remoteInfo = "Result-iOS";
+		};
+		92B1F0661E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D45480871A957362009D7229;
+			remoteInfo = "Result-iOSTests";
+		};
+		92B1F0681E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57FCDE471BA280DC00130C48;
+			remoteInfo = "Result-tvOS";
+		};
+		92B1F06A1E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57FCDE541BA280E000130C48;
+			remoteInfo = "Result-tvOSTests";
+		};
+		92B1F06C1E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D03579A31B2B788F005D26AE;
+			remoteInfo = "Result-watchOS";
+		};
+		92B1F06E1E40EE500032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D03579B01B2B78A1005D26AE;
+			remoteInfo = "Result-watchOSTests";
+		};
+		92B1F07A1E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F802D4D21A5F218E005E236C;
+			remoteInfo = "Runes-iOS";
+		};
+		92B1F07C1E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F86B2E0B1A5F2B8D00C3B8BD;
+			remoteInfo = "Runes-Mac";
+		};
+		92B1F07E1E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51DE8A121BAB363500124320;
+			remoteInfo = "Runes-tvOS";
+		};
+		92B1F0801E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8624C261A645A9600C883B3;
+			remoteInfo = "Runes-iOS Tests";
+		};
+		92B1F0821E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8624C451A645C9500C883B3;
+			remoteInfo = "Runes-Mac Tests";
+		};
+		92B1F0841E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 51DE8A211BAB36E600124320;
+			remoteInfo = "Runes-tvOS Tests";
+		};
+		92B1F0861E40EE570032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA6A5101B2F154D0058E9A8;
+			remoteInfo = "Runes-watchOS";
+		};
+		92B1F0901E40EE5D0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE88E7F21C88C6B30034A112;
+			remoteInfo = "Tentacle-OSX";
+		};
+		92B1F0921E40EE5D0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61377C6C1C8A2B2C0081FF24;
+			remoteInfo = "Tentacle-iOS";
+		};
+		92B1F0941E40EE5D0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE88E7FC1C88C6B30034A112;
+			remoteInfo = "Tentacle-OSXTests";
+		};
+		92B1F0961E40EE5D0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6190817D1C8A2D2B001BE2F8;
+			remoteInfo = "Tentacle-iOSTests";
+		};
+		92B1F0981E40EE5D0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE88E8671C88F0990034A112;
+			remoteInfo = "update-test-fixtures";
+		};
+		92B1F0A21E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD9FACE19D0EAB50031E006;
+			remoteInfo = "Argo-iOS";
+		};
+		92B1F0A61E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F88630551B4EF96200F53969;
+			remoteInfo = "Curry-iOS";
+		};
+		92B1F0AA1E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D047260B19E49F82006002AA;
+			remoteInfo = "ReactiveSwift-iOS";
+		};
+		92B1F0AE1E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D454807C1A957361009D7229;
+			remoteInfo = "Result-iOS";
+		};
+		92B1F0B21E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F802D4D11A5F218E005E236C;
+			remoteInfo = "Runes-iOS";
+		};
+		92B1F0B61E40EE8E0032E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 61377C6B1C8A2B2C0081FF24;
+			remoteInfo = "Tentacle-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92B1F0B81E40EE8E0032E83B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				92B1F0A51E40EE8E0032E83B /* Curry.framework in Embed Frameworks */,
+				92B1F0A11E40EE8E0032E83B /* Argo.framework in Embed Frameworks */,
+				92B1F0B51E40EE8E0032E83B /* Tentacle.framework in Embed Frameworks */,
+				92B1F0A91E40EE8E0032E83B /* ReactiveSwift.framework in Embed Frameworks */,
+				92B1F0B11E40EE8E0032E83B /* Runes.framework in Embed Frameworks */,
+				92B1F0AD1E40EE8E0032E83B /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		92B1EFDC1E40DDA70032E83B /* YouCanDoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouCanDoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +371,13 @@
 		92B1EFE61E40DDA70032E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B1EFE91E40DDA70032E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B1EFEB1E40DDA70032E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Argo.xcodeproj; path = Carthage/Checkouts/Argo/Argo.xcodeproj; sourceTree = "<group>"; };
+		92B1F02E1E40EE430032E83B /* Curry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Curry.xcodeproj; path = Carthage/Checkouts/Curry/Curry.xcodeproj; sourceTree = "<group>"; };
+		92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveSwift.xcodeproj; path = Carthage/Checkouts/ReactiveSwift/ReactiveSwift.xcodeproj; sourceTree = "<group>"; };
+		92B1F0551E40EE500032E83B /* Result.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Result.xcodeproj; path = Carthage/Checkouts/Result/Result.xcodeproj; sourceTree = "<group>"; };
+		92B1F0701E40EE570032E83B /* Runes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Runes.xcodeproj; path = Carthage/Checkouts/Runes/Runes.xcodeproj; sourceTree = "<group>"; };
+		92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tentacle.xcodeproj; path = Carthage/Checkouts/tentacle/Tentacle.xcodeproj; sourceTree = "<group>"; };
+		92B1F0BB1E40EFBC0032E83B /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +385,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B1F0A41E40EE8E0032E83B /* Curry.framework in Frameworks */,
+				92B1F09A1E40EE730032E83B /* Argo.framework in Frameworks */,
+				92B1F0B41E40EE8E0032E83B /* Tentacle.framework in Frameworks */,
+				92B1F09B1E40EE730032E83B /* Curry.framework in Frameworks */,
+				92B1F09C1E40EE730032E83B /* ReactiveSwift.framework in Frameworks */,
+				92B1F09D1E40EE730032E83B /* Result.framework in Frameworks */,
+				92B1F0A81E40EE8E0032E83B /* ReactiveSwift.framework in Frameworks */,
+				92B1F0B01E40EE8E0032E83B /* Runes.framework in Frameworks */,
+				92B1F09E1E40EE730032E83B /* Runes.framework in Frameworks */,
+				92B1F0AC1E40EE8E0032E83B /* Result.framework in Frameworks */,
+				92B1F09F1E40EE730032E83B /* Tentacle.framework in Frameworks */,
+				92B1F0A01E40EE8E0032E83B /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +406,12 @@
 		92B1EFD31E40DDA70032E83B = {
 			isa = PBXGroup;
 			children = (
+				92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */,
+				92B1F02E1E40EE430032E83B /* Curry.xcodeproj */,
+				92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */,
+				92B1F0551E40EE500032E83B /* Result.xcodeproj */,
+				92B1F0701E40EE570032E83B /* Runes.xcodeproj */,
+				92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */,
 				92B1EFDE1E40DDA70032E83B /* YouCanDoIt */,
 				92B1EFDD1E40DDA70032E83B /* Products */,
 			);
@@ -60,8 +434,89 @@
 				92B1EFE61E40DDA70032E83B /* Assets.xcassets */,
 				92B1EFE81E40DDA70032E83B /* LaunchScreen.storyboard */,
 				92B1EFEB1E40DDA70032E83B /* Info.plist */,
+				92B1F0BB1E40EFBC0032E83B /* Counter.swift */,
 			);
 			path = YouCanDoIt;
+			sourceTree = "<group>";
+		};
+		92B1F0171E40EE3B0032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F0211E40EE3B0032E83B /* Argo.framework */,
+				92B1F0231E40EE3B0032E83B /* ArgoTests.xctest */,
+				92B1F0251E40EE3B0032E83B /* Argo.framework */,
+				92B1F0271E40EE3B0032E83B /* Argo-MacTests.xctest */,
+				92B1F0291E40EE3B0032E83B /* Argo.framework */,
+				92B1F02B1E40EE3B0032E83B /* Argo.framework */,
+				92B1F02D1E40EE3B0032E83B /* Argo-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B1F02F1E40EE430032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F0361E40EE430032E83B /* Curry.framework */,
+				92B1F0381E40EE430032E83B /* Curry.framework */,
+				92B1F03A1E40EE430032E83B /* Curry.framework */,
+				92B1F03C1E40EE430032E83B /* Curry.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B1F03E1E40EE4A0032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F0481E40EE4A0032E83B /* ReactiveSwift.framework */,
+				92B1F04A1E40EE4A0032E83B /* ReactiveSwiftTests.xctest */,
+				92B1F04C1E40EE4A0032E83B /* ReactiveSwift.framework */,
+				92B1F04E1E40EE4A0032E83B /* ReactiveSwiftTests.xctest */,
+				92B1F0501E40EE4A0032E83B /* ReactiveSwift.framework */,
+				92B1F0521E40EE4A0032E83B /* ReactiveSwift.framework */,
+				92B1F0541E40EE4A0032E83B /* ReactiveSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B1F0561E40EE500032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F0611E40EE500032E83B /* Result.framework */,
+				92B1F0631E40EE500032E83B /* Result-MacTests.xctest */,
+				92B1F0651E40EE500032E83B /* Result.framework */,
+				92B1F0671E40EE500032E83B /* Result-iOSTests.xctest */,
+				92B1F0691E40EE500032E83B /* Result.framework */,
+				92B1F06B1E40EE500032E83B /* Result-tvOSTests.xctest */,
+				92B1F06D1E40EE500032E83B /* Result.framework */,
+				92B1F06F1E40EE500032E83B /* Result-watchOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B1F0711E40EE570032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F07B1E40EE570032E83B /* Runes.framework */,
+				92B1F07D1E40EE570032E83B /* Runes.framework */,
+				92B1F07F1E40EE570032E83B /* Runes.framework */,
+				92B1F0811E40EE570032E83B /* Runes-iOS Tests.xctest */,
+				92B1F0831E40EE570032E83B /* Runes-Mac Tests.xctest */,
+				92B1F0851E40EE570032E83B /* Runes-tvOS Tests.xctest */,
+				92B1F0871E40EE570032E83B /* Runes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B1F0891E40EE5D0032E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F0911E40EE5D0032E83B /* Tentacle.framework */,
+				92B1F0931E40EE5D0032E83B /* Tentacle.framework */,
+				92B1F0951E40EE5D0032E83B /* Tentacle-OSXTests.xctest */,
+				92B1F0971E40EE5D0032E83B /* Tentacle-iOSTests.xctest */,
+				92B1F0991E40EE5D0032E83B /* update-test-fixtures.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +529,17 @@
 				92B1EFD81E40DDA70032E83B /* Sources */,
 				92B1EFD91E40DDA70032E83B /* Frameworks */,
 				92B1EFDA1E40DDA70032E83B /* Resources */,
+				92B1F0B81E40EE8E0032E83B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				92B1F0A31E40EE8E0032E83B /* PBXTargetDependency */,
+				92B1F0A71E40EE8E0032E83B /* PBXTargetDependency */,
+				92B1F0AB1E40EE8E0032E83B /* PBXTargetDependency */,
+				92B1F0AF1E40EE8E0032E83B /* PBXTargetDependency */,
+				92B1F0B31E40EE8E0032E83B /* PBXTargetDependency */,
+				92B1F0B71E40EE8E0032E83B /* PBXTargetDependency */,
 			);
 			name = YouCanDoIt;
 			productName = YouCanDoIt;
@@ -112,12 +574,307 @@
 			mainGroup = 92B1EFD31E40DDA70032E83B;
 			productRefGroup = 92B1EFDD1E40DDA70032E83B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 92B1F0171E40EE3B0032E83B /* Products */;
+					ProjectRef = 92B1F0161E40EE3B0032E83B /* Argo.xcodeproj */;
+				},
+				{
+					ProductGroup = 92B1F02F1E40EE430032E83B /* Products */;
+					ProjectRef = 92B1F02E1E40EE430032E83B /* Curry.xcodeproj */;
+				},
+				{
+					ProductGroup = 92B1F03E1E40EE4A0032E83B /* Products */;
+					ProjectRef = 92B1F03D1E40EE4A0032E83B /* ReactiveSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = 92B1F0561E40EE500032E83B /* Products */;
+					ProjectRef = 92B1F0551E40EE500032E83B /* Result.xcodeproj */;
+				},
+				{
+					ProductGroup = 92B1F0711E40EE570032E83B /* Products */;
+					ProjectRef = 92B1F0701E40EE570032E83B /* Runes.xcodeproj */;
+				},
+				{
+					ProductGroup = 92B1F0891E40EE5D0032E83B /* Products */;
+					ProjectRef = 92B1F0881E40EE5D0032E83B /* Tentacle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				92B1EFDB1E40DDA70032E83B /* YouCanDoIt */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		92B1F0211E40EE3B0032E83B /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = 92B1F0201E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0231E40EE3B0032E83B /* ArgoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArgoTests.xctest;
+			remoteRef = 92B1F0221E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0251E40EE3B0032E83B /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = 92B1F0241E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0271E40EE3B0032E83B /* Argo-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Argo-MacTests.xctest";
+			remoteRef = 92B1F0261E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0291E40EE3B0032E83B /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = 92B1F0281E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F02B1E40EE3B0032E83B /* Argo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Argo.framework;
+			remoteRef = 92B1F02A1E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F02D1E40EE3B0032E83B /* Argo-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Argo-tvOSTests.xctest";
+			remoteRef = 92B1F02C1E40EE3B0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0361E40EE430032E83B /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = 92B1F0351E40EE430032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0381E40EE430032E83B /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = 92B1F0371E40EE430032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F03A1E40EE430032E83B /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = 92B1F0391E40EE430032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F03C1E40EE430032E83B /* Curry.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Curry.framework;
+			remoteRef = 92B1F03B1E40EE430032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0481E40EE4A0032E83B /* ReactiveSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveSwift.framework;
+			remoteRef = 92B1F0471E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F04A1E40EE4A0032E83B /* ReactiveSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveSwiftTests.xctest;
+			remoteRef = 92B1F0491E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F04C1E40EE4A0032E83B /* ReactiveSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveSwift.framework;
+			remoteRef = 92B1F04B1E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F04E1E40EE4A0032E83B /* ReactiveSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveSwiftTests.xctest;
+			remoteRef = 92B1F04D1E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0501E40EE4A0032E83B /* ReactiveSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveSwift.framework;
+			remoteRef = 92B1F04F1E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0521E40EE4A0032E83B /* ReactiveSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveSwift.framework;
+			remoteRef = 92B1F0511E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0541E40EE4A0032E83B /* ReactiveSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveSwiftTests.xctest;
+			remoteRef = 92B1F0531E40EE4A0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0611E40EE500032E83B /* Result.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Result.framework;
+			remoteRef = 92B1F0601E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0631E40EE500032E83B /* Result-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Result-MacTests.xctest";
+			remoteRef = 92B1F0621E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0651E40EE500032E83B /* Result.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Result.framework;
+			remoteRef = 92B1F0641E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0671E40EE500032E83B /* Result-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Result-iOSTests.xctest";
+			remoteRef = 92B1F0661E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0691E40EE500032E83B /* Result.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Result.framework;
+			remoteRef = 92B1F0681E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F06B1E40EE500032E83B /* Result-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Result-tvOSTests.xctest";
+			remoteRef = 92B1F06A1E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F06D1E40EE500032E83B /* Result.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Result.framework;
+			remoteRef = 92B1F06C1E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F06F1E40EE500032E83B /* Result-watchOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Result-watchOSTests.xctest";
+			remoteRef = 92B1F06E1E40EE500032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F07B1E40EE570032E83B /* Runes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Runes.framework;
+			remoteRef = 92B1F07A1E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F07D1E40EE570032E83B /* Runes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Runes.framework;
+			remoteRef = 92B1F07C1E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F07F1E40EE570032E83B /* Runes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Runes.framework;
+			remoteRef = 92B1F07E1E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0811E40EE570032E83B /* Runes-iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Runes-iOS Tests.xctest";
+			remoteRef = 92B1F0801E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0831E40EE570032E83B /* Runes-Mac Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Runes-Mac Tests.xctest";
+			remoteRef = 92B1F0821E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0851E40EE570032E83B /* Runes-tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Runes-tvOS Tests.xctest";
+			remoteRef = 92B1F0841E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0871E40EE570032E83B /* Runes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Runes.framework;
+			remoteRef = 92B1F0861E40EE570032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0911E40EE5D0032E83B /* Tentacle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Tentacle.framework;
+			remoteRef = 92B1F0901E40EE5D0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0931E40EE5D0032E83B /* Tentacle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Tentacle.framework;
+			remoteRef = 92B1F0921E40EE5D0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0951E40EE5D0032E83B /* Tentacle-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Tentacle-OSXTests.xctest";
+			remoteRef = 92B1F0941E40EE5D0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0971E40EE5D0032E83B /* Tentacle-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Tentacle-iOSTests.xctest";
+			remoteRef = 92B1F0961E40EE5D0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		92B1F0991E40EE5D0032E83B /* update-test-fixtures.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "update-test-fixtures.app";
+			remoteRef = 92B1F0981E40EE5D0032E83B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		92B1EFDA1E40DDA70032E83B /* Resources */ = {
@@ -139,10 +896,44 @@
 			files = (
 				92B1EFE21E40DDA70032E83B /* ViewController.swift in Sources */,
 				92B1EFE01E40DDA70032E83B /* AppDelegate.swift in Sources */,
+				92B1F0BC1E40EFBC0032E83B /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B1F0A31E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Argo-iOS";
+			targetProxy = 92B1F0A21E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+		92B1F0A71E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Curry-iOS";
+			targetProxy = 92B1F0A61E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+		92B1F0AB1E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveSwift-iOS";
+			targetProxy = 92B1F0AA1E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+		92B1F0AF1E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Result-iOS";
+			targetProxy = 92B1F0AE1E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+		92B1F0B31E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Runes-iOS";
+			targetProxy = 92B1F0B21E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+		92B1F0B71E40EE8E0032E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Tentacle-iOS";
+			targetProxy = 92B1F0B61E40EE8E0032E83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92B1EFE31E40DDA70032E83B /* Main.storyboard */ = {
@@ -260,6 +1051,7 @@
 		92B1EFEF1E40DDA70032E83B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
 				INFOPLIST_FILE = YouCanDoIt/Info.plist;
@@ -273,6 +1065,7 @@
 		92B1EFF01E40DDA70032E83B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8VS9JKFDZS;
 				INFOPLIST_FILE = YouCanDoIt/Info.plist;
