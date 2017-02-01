@@ -11,6 +11,7 @@
 		7AFE08C41E41858C00359FDC /* UIFont+CNTAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE08C31E41858C00359FDC /* UIFont+CNTAdditions.swift */; };
 		7AFE08F51E41863E00359FDC /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFE08EC1E41860F00359FDC /* ReactiveCocoa.framework */; };
 		7AFE08F61E41863E00359FDC /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFE08EC1E41860F00359FDC /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AFE08FA1E4193C500359FDC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE08F91E4193C500359FDC /* Settings.bundle */; };
 		92B1EFE01E40DDA70032E83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1EFDF1E40DDA70032E83B /* AppDelegate.swift */; };
 		92B1EFE21E40DDA70032E83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1EFE11E40DDA70032E83B /* ViewController.swift */; };
 		92B1EFE71E40DDA70032E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1EFE61E40DDA70032E83B /* Assets.xcassets */; };
@@ -423,6 +424,7 @@
 		7AFE08A11E4184E500359FDC /* UIColor+CNTAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CNTAdditions.swift"; sourceTree = "<group>"; };
 		7AFE08C31E41858C00359FDC /* UIFont+CNTAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CNTAdditions.swift"; sourceTree = "<group>"; };
 		7AFE08DD1E41860F00359FDC /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = Carthage/Checkouts/tentacle/../ReactiveCocoa/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		7AFE08F91E4193C500359FDC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		92B1EFDC1E40DDA70032E83B /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1EFDF1E40DDA70032E83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B1EFE11E40DDA70032E83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				92B1EFEB1E40DDA70032E83B /* Info.plist */,
 				92B1EFE81E40DDA70032E83B /* LaunchScreen.storyboard */,
 				92B1EFE11E40DDA70032E83B /* ViewController.swift */,
+				7AFE08F91E4193C500359FDC /* Settings.bundle */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -1008,6 +1011,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B1EFEA1E40DDA70032E83B /* LaunchScreen.storyboard in Resources */,
+				7AFE08FA1E4193C500359FDC /* Settings.bundle in Resources */,
 				92B1EFE71E40DDA70032E83B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
