@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YouCanDoIt.xcodeproj">
+      location = "self:/Users/Romain/Projects/Perfectly-Cooked/Counter/Counter.xcodeproj">
    </FileRef>
 </Workspace>
