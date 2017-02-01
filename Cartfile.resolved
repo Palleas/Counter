@@ -1,7 +1,0 @@
-github "thoughtbot/Curry" "v3.0.0"
-github "antitypical/Result" "3.1.0"
-github "thoughtbot/Runes" "v4.0.1"
-github "thoughtbot/Argo" "v4.1.2"
-github "ReactiveCocoa/ReactiveSwift" "1.0.0"
-github "ReactiveCocoa/ReactiveCocoa" "99db7971d14b426bc1a01375439ea9253e517cbf"
-github "mdiep/tentacle" "0.5.0"
