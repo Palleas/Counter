@@ -5,14 +5,24 @@ import Result
 
 final class CounterView: UIView {
 
-    let words = MutableProperty<Int>(450)
+    let words = MutableProperty<Int>(0)
 
     private let content: UILabel = {
         let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
         label.textAlignment = .center
+
+        return label
+    }()
+
+    private let motivation: UILabel = {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.font = .cntMotivationFont()
+        label.textColor = .cntJungleGreen
+        label.backgroundColor = .white
+        label.text = "You can do it!"
 
         return label
     }()
@@ -21,7 +31,8 @@ final class CounterView: UIView {
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.alignment = .center
-        stackView.distribution = .equalCentering
+        stackView.distribution = .equalSpacing
+        stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
 
         return stackView
@@ -32,12 +43,14 @@ final class CounterView: UIView {
 
         backgroundColor = .cntJungleGreen
 
-        addSubview(content)
+        container.addArrangedSubview(content)
+        container.addArrangedSubview(motivation)
+
+        addSubview(container)
         NSLayoutConstraint.activate([
-            content.topAnchor.constraint(equalTo: topAnchor),
-            content.leftAnchor.constraint(equalTo: leftAnchor),
-            content.rightAnchor.constraint(equalTo: rightAnchor),
-            content.bottomAnchor.constraint(equalTo: bottomAnchor)
+            container.leftAnchor.constraint(equalTo: leftAnchor),
+            container.rightAnchor.constraint(equalTo: rightAnchor),
+            container.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
 
         content.reactive.attributedText <~ words.producer.map(format)
@@ -60,7 +73,10 @@ final class CounterView: UIView {
             NSBackgroundColorAttributeName: UIColor.white,
             NSKernAttributeName: 5
         ]))
-        formatted.append(NSAttributedString(string: " words\n".uppercased(), attributes: defaults))
+        formatted.append(NSAttributedString(string: " words\n".uppercased(), attributes: [
+            NSFontAttributeName: UIFont.cntCountFont()!,
+            NSForegroundColorAttributeName: UIColor.white,
+        ]))
         formatted.append(NSAttributedString(string: "this week".uppercased(), attributes: defaults))
 
         return formatted
