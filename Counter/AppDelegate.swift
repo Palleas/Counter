@@ -30,10 +30,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 return
             }
 
-//            let e = NSExpression(block: <#T##(Any?, [Any], NSMutableDictionary?) -> Any#>, arguments: <#T##[NSExpression]?#>)
-            let f = NSFetchRequest<Synchronization>(entityName: "Synchronization")
-            f.sortDescriptors = [NSSortDescriptor(key: "timestamp", ascending: true)]
-            let results = try! c.viewContext.fetch(f) as [Synchronization]
+            let keyPathExpression = NSExpression(forKeyPath: "timestamp")
+
+            let expression = NSExpression(forConstantValue: <#T##Any?#>)
+//            let expression = NSExpression(block: { object, objects, _ in
+//                guard let object = object as? NSDate else { return 0 }
+//
+//                print("Evaluated object = \(object)")
+//
+//                return 1
+//            }, arguments: [keyPathExpression])
+
+            let desc = NSExpressionDescription()
+            desc.name = "number_of_week"
+            desc.expression = expression
+            desc.expressionResultType = .integer16AttributeType
+
+            let f = NSFetchRequest<NSFetchRequestResult>(entityName: "Synchronization")
+            f.propertiesToFetch = [desc]
+            f.resultType = .dictionaryResultType
+            f.sortDescriptors = [NSSortDescriptor(key: "number_of_week", ascending: true)]
+            let results = try! c.viewContext.fetch(f)
 
 
             print("Results = \(results)")
