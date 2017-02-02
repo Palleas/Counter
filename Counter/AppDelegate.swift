@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = CounterViewController()
         window.makeKeyAndVisible()
+
+        let s = Synchronizer(counter: Counter())
+        s.synchronize().startWithResult { print("Result = \($0)") }
 
         self.window = window
 
