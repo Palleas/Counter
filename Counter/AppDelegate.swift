@@ -17,13 +17,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         BuddyBuildSDK.setup()
         
-
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = CounterViewController()
         window.makeKeyAndVisible()
 
-
         application.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
+
+        let c = NSPersistentContainer(name: "Model")
+        c.loadPersistentStores { _, error in
+            if let error = error {
+                print("Got error = \(error)")
+                return
+            }
+
+//            let e = NSExpression(block: <#T##(Any?, [Any], NSMutableDictionary?) -> Any#>, arguments: <#T##[NSExpression]?#>)
+            let f = NSFetchRequest<Synchronization>(entityName: "Synchronization")
+            f.sortDescriptors = [NSSortDescriptor(key: "timestamp", ascending: true)]
+            let results = try! c.viewContext.fetch(f) as [Synchronization]
+
+
+            print("Results = \(results)")
+        }
+
 
         self.window = window
 
