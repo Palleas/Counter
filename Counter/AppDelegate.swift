@@ -22,12 +22,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = CounterViewController()
         window.makeKeyAndVisible()
 
-        let s = Synchronizer(counter: Counter())
-        s.synchronize().startWithResult { print("Result = \($0)") }
+
+        application.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
 
         self.window = window
 
         return true
+    }
+
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        let s = Synchronizer(counter: Counter())
+        s.synchronize().startWithResult { result in
+            print("Result = \(result)")
+            switch result {
+            case .success(_):
+                completionHandler(.newData)
+            case .failure(_):
+                completionHandler(.failed)
+            }
+        }
+
     }
 
 }
