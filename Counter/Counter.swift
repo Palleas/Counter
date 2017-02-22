@@ -5,7 +5,7 @@ import Result
 
 
 final class Counter {
-    private let c = Client(.dotCom, token: UserDefaults.standard.string(forKey: "GithubToken")!)
+    private let c = Client(.dotCom, token: UserDefaults.standard.string(forKey: "GithubToken") ?? "")
 
     enum CounterError: Error {
         case githubError(wrapped: Client.Error)

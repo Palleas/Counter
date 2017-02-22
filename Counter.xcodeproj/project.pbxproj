@@ -15,7 +15,6 @@
 		71A8C8BCD36D0F7F346E7C06 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB085D127AF2455052ECE6 /* CoreText.framework */; };
 		7AFE08A21E4184E500359FDC /* UIColor+CNTAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE08A11E4184E500359FDC /* UIColor+CNTAdditions.swift */; };
 		7AFE08C41E41858C00359FDC /* UIFont+CNTAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE08C31E41858C00359FDC /* UIFont+CNTAdditions.swift */; };
-		7AFE08F51E41863E00359FDC /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFE08EC1E41860F00359FDC /* ReactiveCocoa.framework */; };
 		7AFE08F61E41863E00359FDC /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFE08EC1E41860F00359FDC /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7AFE08FA1E4193C500359FDC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE08F91E4193C500359FDC /* Settings.bundle */; };
 		7AFE09001E42B82200359FDC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE08FE1E42B82200359FDC /* Model.xcdatamodeld */; };
@@ -475,7 +474,6 @@
 				92B1F09C1E40EE730032E83B /* ReactiveSwift.framework in Frameworks */,
 				92B1F09D1E40EE730032E83B /* Result.framework in Frameworks */,
 				92B1F0B01E40EE8E0032E83B /* Runes.framework in Frameworks */,
-				7AFE08F51E41863E00359FDC /* ReactiveCocoa.framework in Frameworks */,
 				92B1F09F1E40EE730032E83B /* Tentacle.framework in Frameworks */,
 				1C7F964323DC95B3AC765CF9 /* BuddyBuildSDK.framework in Frameworks */,
 				69C0AEF21F85D3BBD34BBB09 /* AssetsLibrary.framework in Frameworks */,

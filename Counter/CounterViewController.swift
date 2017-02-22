@@ -94,6 +94,14 @@ final class CounterViewController: UIViewController {
         view = counterView
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            fatalError("If you read this, a QA engineer ended up in a case that should not happen")
+        }
+    }
+
 }
 
 struct CounterViewModel {
