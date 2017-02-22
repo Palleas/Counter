@@ -22,19 +22,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        let s = Synchronizer(counter: Counter())
-        s.synchronize().startWithResult { result in
-            print("Result = \(result)")
-            switch result {
-            case .success(_):
-                completionHandler(.newData)
-            case .failure(_):
-                completionHandler(.failed)
-            }
-        }
-
-    }
-
 }
 
